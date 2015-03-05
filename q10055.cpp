@@ -8,6 +8,7 @@
 typedef long long int lint;
 
 lint abs( lint n );
+lint solve( lint a , lint b );
 
 /* SOLVE START */
 lint abs( lint n )
