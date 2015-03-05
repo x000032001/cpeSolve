@@ -5,6 +5,10 @@
 #include <stdio.h>
 #include <assert.h>
 
+void swap( int &a , int &b ); // not necessary
+void sort( int array[] ,int size );
+int getMedian( int array[] ,int size );
+int abs( int n );
 int solve( int array[] ,int size );
 
 /* SOLVE START */
