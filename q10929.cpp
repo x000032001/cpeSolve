@@ -24,7 +24,6 @@ int solve(const char* line)
 	
 	int f = A-B;
 	f = f >= 0 ? f : -f;	//abs
-	printf("%d %d %d\n",f,A,B);
 
 	if( f%11==0 )
 		return 1;
