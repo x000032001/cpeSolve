@@ -65,7 +65,8 @@ int main()
 	while(1)
 	{
 		char line[1004] = {};
-		assert( NULL != fgets( line , 1004 , stdin ) );
+		char *R = fgets( line , 1004 , stdin );
+		assert( R != NULL );
 
 		for( int i = 0 ; i < 1004 ; ++i )
 			if( line[i]=='\n' ) line[i]='\0';
